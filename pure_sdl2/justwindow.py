@@ -1,5 +1,6 @@
 from sdl2 import *
 
+SDL_Init(SDL_INIT_VIDEO)
 window = SDL_CreateWindow(
     "Very original window title with unicode: αβγ".encode(),
     SDL_WINDOWPOS_CENTERED,
