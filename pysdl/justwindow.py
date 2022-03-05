@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import sdl2.ext
 
 sdl2.ext.init()

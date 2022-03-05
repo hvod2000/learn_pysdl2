@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 from sdl2 import *
 
 SDL_Init(SDL_INIT_VIDEO)

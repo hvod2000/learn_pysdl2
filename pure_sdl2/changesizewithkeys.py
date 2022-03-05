@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 from sdl2 import *
 
 window_size = [800, 450]
