@@ -19,3 +19,7 @@ while not done:
     rect = (width // 3, height // 3, width // 3, height // 3)
     render.fill([rect], (0, 0, 0x21))
     render.present()
+
+render.destroy()
+window.close()
+sdl2.ext.quit()
